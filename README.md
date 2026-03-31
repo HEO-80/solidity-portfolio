@@ -1,103 +1,157 @@
-# 🔐 Solidity Portfolio — HEO-80
+<div align="center">
 
-Smart contracts portfolio showcasing real-world DeFi use cases.
-Built with Hardhat 3, OpenZeppelin and deployed on testnets.
+<br/>
 
-> Each contract lives in its own independent repository with full documentation:
+# 🔐 Solidity Portfolio
+
+### Real-world smart contracts. Production-ready. Fully documented.
+
+A curated collection of Solidity smart contracts covering tokens, DeFi primitives,  
+NFTs and advanced patterns — each in its own repo with tests, deployment and full docs.
+
+<br/>
+
+[![Solidity](https://img.shields.io/badge/Solidity-0.8.20-363636?style=for-the-badge&logo=solidity&logoColor=white)](https://soliditylang.org/)
+[![Hardhat](https://img.shields.io/badge/Hardhat-3.x-f7df1e?style=for-the-badge&logo=hardhat&logoColor=black)](https://hardhat.org/)
+[![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-5.x-4e5ee4?style=for-the-badge&logo=openzeppelin&logoColor=white)](https://openzeppelin.com/)
+[![Ethers.js](https://img.shields.io/badge/Ethers.js-v6-2535a0?style=for-the-badge)](https://ethers.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-c792ea?style=for-the-badge)](LICENSE)
+
+<br/>
+
+> Each contract lives in its **own independent repository** with full documentation:  
 > `README.md` · `STEPS.md` · `EXPLANATION.md` · `EXAMPLE.md`
+
+<br/>
+
+</div>
+
+---
+
+## 🗂️ Repository Structure
+
+Each block groups contracts by category. Every contract is an independent GitHub repo:
+
+```
+HEO-80/
+├── solidity-portfolio/          ← This repo (index + links)
+│
+├── 📦 Block 1 — Tokens
+│   ├── erc20-custom/            ✅ done
+│   ├── erc20-tax-token/         🔄 in progress
+│   └── deploy-verify-guide/     coming soon
+│
+├── 📦 Block 2 — DeFi Contracts
+│   ├── token-vesting/           coming soon
+│   ├── escrow-simple/           coming soon
+│   └── staking-contract/        coming soon
+│
+├── 📦 Block 3 — NFTs
+│   ├── erc721-basic/            coming soon
+│   ├── nft-royalties/           coming soon
+│   └── nft-whitelist-merkle/    coming soon
+│
+└── 📦 Block 4 — Advanced
+    ├── multisig-wallet/         coming soon
+    ├── dao-voting/              coming soon
+    └── flashloan-receiver/      coming soon
+```
 
 ---
 
 ## 📦 Block 1 — Tokens
 
-| Contract | Description | Repo |
-|----------|-------------|------|
-| ERC-20 Custom | Mintable, burnable token with ownership control | [erc20-custom](https://github.com/HEO-80/erc20-custom) |
-| ERC-20 Tax Token | Token with transfer tax and treasury wallet | [erc20-tax-token](https://github.com/HEO-80/erc20-tax-token) |
-| Deploy & Verify Guide | Step-by-step guide to deploy and verify on Etherscan | coming soon |
+| Contract | Description | Status | Repo |
+|----------|-------------|--------|------|
+| ERC-20 Custom | Mintable, burnable token with ownership control | ✅ Done | [erc20-custom](https://github.com/HEO-80/erc20-custom) |
+| ERC-20 Tax Token | Transfer tax with configurable treasury wallet | 🔄 In progress | [erc20-tax-token](https://github.com/HEO-80/erc20-tax-token) |
+| Deploy & Verify Guide | Step-by-step Etherscan verification walkthrough | ⏳ Soon | coming soon |
 
 ---
 
 ## 📦 Block 2 — DeFi Contracts
 
-| Contract | Description | Repo |
-|----------|-------------|------|
-| Token Vesting | Cliff + linear release, multi-beneficiary | coming soon |
-| Escrow Simple | Trustless escrow between two parties | coming soon |
-| Staking Contract | Deposit tokens, earn rewards | coming soon |
+| Contract | Description | Status | Repo |
+|----------|-------------|--------|------|
+| Token Vesting | Cliff + linear release, multi-beneficiary | ⏳ Soon | coming soon |
+| Escrow Simple | Trustless escrow between two parties | ⏳ Soon | coming soon |
+| Staking Contract | Deposit tokens, earn time-based rewards | ⏳ Soon | coming soon |
 
 ---
 
 ## 📦 Block 3 — NFTs
 
-| Contract | Description | Repo |
-|----------|-------------|------|
-| ERC-721 Basic | NFT with IPFS metadata | coming soon |
-| NFT Royalties | ERC-2981 royalty standard | coming soon |
-| NFT Whitelist Merkle | Minting with Merkle tree whitelist | coming soon |
+| Contract | Description | Status | Repo |
+|----------|-------------|--------|------|
+| ERC-721 Basic | NFT collection with IPFS metadata | ⏳ Soon | coming soon |
+| NFT Royalties | On-chain royalties via ERC-2981 standard | ⏳ Soon | coming soon |
+| NFT Whitelist Merkle | Presale minting with Merkle tree whitelist | ⏳ Soon | coming soon |
 
 ---
 
 ## 📦 Block 4 — Advanced
 
-| Contract | Description | Repo |
-|----------|-------------|------|
-| Multisig Wallet | M-of-N signature wallet | coming soon |
-| DAO Voting | On-chain governance with proposals | coming soon |
-| Flash Loan Receiver | Aave V3 flash loan integration | coming soon |
+| Contract | Description | Status | Repo |
+|----------|-------------|--------|------|
+| Multisig Wallet | M-of-N multi-signature wallet | ⏳ Soon | coming soon |
+| DAO Voting | On-chain governance with proposals and voting | ⏳ Soon | coming soon |
+| Flash Loan Receiver | Aave V3 flash loan integration | ⏳ Soon | coming soon |
 
 ---
 
-## 🛠 Tech Stack
+## 🧰 Each Repository Contains
 
-- Solidity 0.8.20
-- Hardhat 3
-- OpenZeppelin Contracts
-- Ethers.js v6
-- Mocha + Chai
+```
+contract-name/
+├── contracts/
+│   └── ContractName.sol      # Main contract
+├── test/
+│   └── ContractName.test.js  # Full test suite
+├── ignition/
+│   └── modules/              # Deployment scripts
+├── README.md                 # Overview and quickstart
+├── STEPS.md                  # Exact commands used (reproducible setup)
+├── EXPLANATION.md            # How the contract works in detail
+└── EXAMPLE.md                # Real-world use case and scenario
+```
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| [Solidity 0.8.20](https://soliditylang.org/) | Smart contract language |
+| [Hardhat 3](https://hardhat.org/) | Development environment |
+| [OpenZeppelin 5](https://openzeppelin.com/) | Audited contract libraries |
+| [Ethers.js v6](https://ethers.org/) | Blockchain interaction |
+| [Mocha + Chai](https://mochajs.org/) | Testing framework |
+| [Sepolia Testnet](https://sepolia.etherscan.io/) | Deployment and verification |
+
+---
+
+## ⏱️ Estimated Time per Contract
+
+| Block | Contracts | Time each |
+|-------|-----------|-----------|
+| Block 1 — Tokens | 3 | 2–3h |
+| Block 2 — DeFi | 3 | 3–4h |
+| Block 3 — NFTs | 3 | 3–5h |
+| Block 4 — Advanced | 3 | 4–6h |
 
 ---
 
 ## 👤 Author
 
-**Héctor Oviedo** — Full Stack Developer & DeFi Researcher  
-[GitHub](https://github.com/HEO-80) · [LinkedIn](https://linkedin.com/in/hectorob)
+**Héctor Oviedo** — Full Stack Developer & DeFi Researcher
 
-# Sample Hardhat Project
+[![GitHub](https://img.shields.io/badge/GitHub-HEO--80-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HEO-80)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-hectorob-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hectorob)
 
-Smart contracts portfolio showcasing real-world use cases.
-Built with Hardhat, OpenZeppelin and deployed on testnets.
+---
 
-## Blocks
-- Block 1 - Tokens (ERC-20 custom, tax token)
-- Block 2 - DeFi Contracts (vesting, escrow, staking)
-- Block 3 - NFTs (ERC-721, royalties, whitelist)
-- Block 4 - Advanced (multisig, DAO, flash loans)
+<div align="center">
 
-Estructura propuesta:
-Un repo paraguas llamado solidity-portfolio con carpetas por bloque, y dentro cada contrato su propia carpeta con Hardhat, tests y README.
-solidity-portfolio/
-├── README.md (índice general con links)
-├── block1-tokens/
-│   ├── erc20-custom/
-│   ├── erc20-tax-token/
-│   └── deploy-verify-guide/
-├── block2-defi-contracts/
-│   ├── token-vesting/
-│   ├── escrow-simple/
-│   └── staking-contract/
-├── block3-nft/
-│   ├── erc721-basic/
-│   ├── nft-royalties/
-│   └── nft-whitelist-merkle/
-└── block4-advanced/
-    ├── multisig-wallet/
-    ├── dao-voting/
-    └── flashloan-receiver/
-Tiempo realista por contrato:
+*Built contract by contract. Tested. Documented. Deployed.*
 
-Bloque 1 → 2-3h cada uno
-Bloque 2 → 3-4h cada uno
-Bloque 3 → 3-5h cada uno
-Bloque 4 → 4-6h cada uno
-
+</div>
