@@ -64,7 +64,7 @@ HEO-80/
 | Contract | Description | Status | Repo |
 |----------|-------------|--------|------|
 | ERC-20 Custom | Mintable, burnable token with ownership control | ✅ Done | [erc20-custom](https://github.com/HEO-80/erc20-custom) |
-| ERC-20 Tax Token | Transfer tax with configurable treasury wallet | 🔄 In progress | [erc20-tax-token](https://github.com/HEO-80/erc20-tax-token) |
+| ERC-20 Tax Token | Transfer tax with configurable treasury wallet | ✅ Done | [erc20-tax-token](https://github.com/HEO-80/erc20-tax-token) |
 | Deploy & Verify Guide | Step-by-step Etherscan verification walkthrough | ⏳ Soon | coming soon |
 
 ---
