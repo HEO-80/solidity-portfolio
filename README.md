@@ -28,6 +28,26 @@ NFTs and advanced patterns — each in its own repo with tests, deployment and f
 
 ---
 
+## 💼 Looking to hire?
+
+I build **production-ready smart contracts** — tested, documented, and verified on-chain.
+
+If you need any of the following, you're in the right place:
+
+- 🪙 **ERC-20 tokens** — standard, mintable, burnable, or with transfer tax
+- 🔒 **Vesting & escrow** — cliff schedules, trustless multi-party agreements
+- 📈 **Staking contracts** — deposit/reward mechanics for your protocol
+- 🖼️ **NFT collections** — ERC-721 with IPFS metadata, royalties, or Merkle whitelist presale
+- 🏛️ **DAO & governance** — on-chain proposals and voting
+- ⚡ **Flash loan integrations** — Aave V3 receivers and arbitrage logic
+- 🔐 **Security-first code** — reentrancy guards, access control, gas optimization
+
+Every contract in this portfolio is **open source, fully tested with Hardhat, and verified on Etherscan/BscScan**.
+
+> 📩 Available for freelance work — [Upwork](#) · [Fiverr](#) · [LinkedIn](https://linkedin.com/in/hectorob)
+
+---
+
 ## ⚙️ Global Prerequisites
 
 Before diving into any contract repo, make sure you have:
@@ -47,7 +67,6 @@ Before diving into any contract repo, make sure you have:
 ---
 
 ## 🗂️ Repository Structure
-
 ```
 HEO-80/
 ├── solidity-portfolio/          ← This repo (index + links)
@@ -116,7 +135,6 @@ HEO-80/
 ---
 
 ## 🧰 Each Repository Contains
-
 ```
 contract-name/
 ├── contracts/
