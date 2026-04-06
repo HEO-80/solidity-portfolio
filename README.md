@@ -28,6 +28,8 @@ NFTs and advanced patterns — each in its own repo with tests, deployment and f
 
 ---
 
+<img src="img/solidity_portfolio_dark_v3.svg">
+
 ## 💼 Looking to hire?
 
 I build **production-ready smart contracts** — tested, documented, and verified on-chain.
