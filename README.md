@@ -109,30 +109,33 @@ HEO-80/
 
 | Contract | Description | Status | Repo |
 |----------|-------------|--------|------|
-| Token Vesting | Cliff + linear release, multi-beneficiary | ✅ Done | [token-vesting](https://github.com/HEO-80/token-vesting) |
-| Escrow Simple | Trustless escrow between two parties | ✅ Done | [escrow-simple](https://github.com/HEO-80/escrow-simple) |
-| Staking Contract | Deposit tokens, earn time-based rewards | ✅ Done | [staking-contract](https://github.com/HEO-80/staking-contract) |
+| Token Vesting | Cliff + linear release, multi-beneficiary | ✅ Done | 🔒 Private — request access |
+| Escrow Simple | Trustless escrow between two parties | ✅ Done | 🔒 Private — request access |
+| Staking Contract | Deposit tokens, earn time-based rewards | ✅ Done | 🔒 Private — request access |
 
+> 🔒 Repos are private. Request access via [LinkedIn](https://linkedin.com/in/hectorob) or email.
 ---
 
 ## 📦 Block 3 — NFTs
 
 | Contract | Description | Status | Repo |
 |----------|-------------|--------|------|
-| ERC-721 Basic | NFT collection with IPFS metadata | ✅ Done | [erc721-basic](https://github.com/HEO-80/erc721-basic) |
-| NFT Royalties | On-chain royalties via ERC-2981 standard | ✅ Done | [nft-royalties](https://github.com/HEO-80/nft-royalties) |
-| NFT Whitelist Merkle | Presale minting with Merkle tree whitelist | ✅ Done | [nft-whitelist-merkle](https://github.com/HEO-80/nft-whitelist-merkle) |
+| ERC-721 Basic | NFT collection with IPFS metadata | ✅ Done | 🔒 Private — request access |
+| NFT Royalties | On-chain royalties via ERC-2981 standard | ✅ Done | 🔒 Private — request access |
+| NFT Whitelist Merkle | Presale minting with Merkle tree whitelist | ✅ Done | 🔒 Private — request access |
 
+> 🔒 Repos are private. Request access via [LinkedIn](https://linkedin.com/in/hectorob) or email.
 ---
 
 ## 📦 Block 4 — Advanced
 
 | Contract | Description | Status | Repo |
 |----------|-------------|--------|------|
-| Multisig Wallet | M-of-N multi-signature wallet | ✅ Done | [multisig-wallet](https://github.com/HEO-80/multisig-wallet) |
-| DAO Voting | On-chain governance with proposals and voting | ✅ Done | [dao-voting](https://github.com/HEO-80/dao-voting) |
-| Flash Loan Receiver | Aave V3 flash loan integration | ✅ Done | [flashloan-receiver](https://github.com/HEO-80/flashloan-receiver) |
+| Multisig Wallet | M-of-N multi-signature wallet | ✅ Done | 🔒 Private — request access |
+| DAO Voting | On-chain governance with proposals and voting | ✅ Done | 🔒 Private — request access |
+| Flash Loan Receiver | Aave V3 flash loan integration | ✅ Done | 🔒 Private — request access |
 
+> 🔒 Repos are private. Request access via [LinkedIn](https://linkedin.com/in/hectorob) or email.
 ---
 
 ## 🧰 Each Repository Contains
