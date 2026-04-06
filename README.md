@@ -6,20 +6,20 @@
 
 ### Real-world smart contracts. Production-ready. Fully documented.
 
-A curated collection of Solidity smart contracts covering tokens, DeFi primitives,  
+A curated collection of Solidity smart contracts covering tokens, DeFi primitives,
 NFTs and advanced patterns — each in its own repo with tests, deployment and full docs.
 
 <br/>
 
-[![Solidity](https://img.shields.io/badge/Solidity-0.8.20-363636?style=for-the-badge&logo=solidity&logoColor=white)](https://soliditylang.org/)
-[![Hardhat](https://img.shields.io/badge/Hardhat-3.x-f7df1e?style=for-the-badge&logo=hardhat&logoColor=black)](https://hardhat.org/)
+[![Solidity](https://img.shields.io/badge/Solidity-0.8.28-363636?style=for-the-badge&logo=solidity&logoColor=white)](https://soliditylang.org/)
+[![Hardhat](https://img.shields.io/badge/Hardhat-3.x-f7df1e?style=for-the-badge)](https://hardhat.org/)
 [![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-5.x-4e5ee4?style=for-the-badge&logo=openzeppelin&logoColor=white)](https://openzeppelin.com/)
 [![Ethers.js](https://img.shields.io/badge/Ethers.js-v6-2535a0?style=for-the-badge)](https://ethers.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-c792ea?style=for-the-badge)](LICENSE)
 
 <br/>
 
-> Each contract lives in its **own independent repository** with full documentation:  
+> Each contract lives in its **own independent repository** with full documentation:
 > `README.md` · `STEPS.md` · `EXPLANATION.md` · `EXAMPLE.md`
 
 <br/>
@@ -28,9 +28,45 @@ NFTs and advanced patterns — each in its own repo with tests, deployment and f
 
 ---
 
-## 🗂️ Repository Structure
+## 💼 Looking to hire?
 
-Each block groups contracts by category. Every contract is an independent GitHub repo:
+I build **production-ready smart contracts** — tested, documented, and verified on-chain.
+
+If you need any of the following, you're in the right place:
+
+- 🪙 **ERC-20 tokens** — standard, mintable, burnable, or with transfer tax
+- 🔒 **Vesting & escrow** — cliff schedules, trustless multi-party agreements
+- 📈 **Staking contracts** — deposit/reward mechanics for your protocol
+- 🖼️ **NFT collections** — ERC-721 with IPFS metadata, royalties, or Merkle whitelist presale
+- 🏛️ **DAO & governance** — on-chain proposals and voting
+- ⚡ **Flash loan integrations** — Aave V3 receivers and arbitrage logic
+- 🔐 **Security-first code** — reentrancy guards, access control, gas optimization
+
+Every contract in this portfolio is **open source, fully tested with Hardhat, and verified on Etherscan/BscScan**.
+
+> 📩 Available for freelance work — [Upwork](#) · [Fiverr](#) · [LinkedIn](https://linkedin.com/in/hectorob)
+
+---
+
+## ⚙️ Global Prerequisites
+
+Before diving into any contract repo, make sure you have:
+
+| Requirement | Version | Notes |
+|-------------|---------|-------|
+| [Node.js](https://nodejs.org/) | v22+ | Required by Hardhat 3 |
+| npm | v7+ | Comes with Node.js |
+| Terminal | Any | PowerShell, bash or zsh |
+| [MetaMask](https://metamask.io/) | Latest | Testnet wallet for deployments |
+| [Alchemy](https://alchemy.com/) account | Free tier | RPC endpoint for testnets |
+| [Etherscan](https://etherscan.io/) API key | Free tier | Contract verification |
+| Sepolia ETH | Any amount | [Get free ETH here](https://cloud.google.com/application/web3/faucet/ethereum/sepolia) |
+
+> Each repo has its own `STEPS.md` with exact setup commands from scratch.
+
+---
+
+## 🗂️ Repository Structure
 
 ```
 HEO-80/
@@ -38,23 +74,23 @@ HEO-80/
 │
 ├── 📦 Block 1 — Tokens
 │   ├── erc20-custom/            ✅ done
-│   ├── erc20-tax-token/         🔄 in progress
-│   └── deploy-verify-guide/     coming soon
+│   ├── erc20-tax-token/         ✅ done
+│   └── deploy-verify-guide/     ✅ done
 │
 ├── 📦 Block 2 — DeFi Contracts
-│   ├── token-vesting/           coming soon
-│   ├── escrow-simple/           coming soon
-│   └── staking-contract/        coming soon
+│   ├── token-vesting/           ✅ done
+│   ├── escrow-simple/           ✅ done
+│   └── staking-contract/        ✅ done
 │
 ├── 📦 Block 3 — NFTs
-│   ├── erc721-basic/            coming soon
-│   ├── nft-royalties/           coming soon
-│   └── nft-whitelist-merkle/    coming soon
+│   ├── erc721-basic/            ✅ done
+│   ├── nft-royalties/           ✅ done
+│   └── nft-whitelist-merkle/    ✅ done
 │
 └── 📦 Block 4 — Advanced
-    ├── multisig-wallet/         coming soon
-    ├── dao-voting/              coming soon
-    └── flashloan-receiver/      coming soon
+    ├── multisig-wallet/         ✅ done
+    ├── dao-voting/              ✅ done
+    └── flashloan-receiver/      ✅ done
 ```
 
 ---
@@ -65,7 +101,7 @@ HEO-80/
 |----------|-------------|--------|------|
 | ERC-20 Custom | Mintable, burnable token with ownership control | ✅ Done | [erc20-custom](https://github.com/HEO-80/erc20-custom) |
 | ERC-20 Tax Token | Transfer tax with configurable treasury wallet | ✅ Done | [erc20-tax-token](https://github.com/HEO-80/erc20-tax-token) |
-| Deploy & Verify Guide | Step-by-step Etherscan verification walkthrough | ⏳ Soon | coming soon |
+| Deploy & Verify Guide | Step-by-step Etherscan verification walkthrough | ✅ Done | [deploy-verify-guide](https://github.com/HEO-80/deploy-verify-guide) |
 
 ---
 
@@ -73,30 +109,33 @@ HEO-80/
 
 | Contract | Description | Status | Repo |
 |----------|-------------|--------|------|
-| Token Vesting | Cliff + linear release, multi-beneficiary | ⏳ Soon | coming soon |
-| Escrow Simple | Trustless escrow between two parties | ⏳ Soon | coming soon |
-| Staking Contract | Deposit tokens, earn time-based rewards | ⏳ Soon | coming soon |
+| Token Vesting | Cliff + linear release, multi-beneficiary | ✅ Done | 🔒 Private — request access |
+| Escrow Simple | Trustless escrow between two parties | ✅ Done | 🔒 Private — request access |
+| Staking Contract | Deposit tokens, earn time-based rewards | ✅ Done | 🔒 Private — request access |
 
+> 🔒 Repos are private. Request access via [LinkedIn](https://linkedin.com/in/hectorob) or email.
 ---
 
 ## 📦 Block 3 — NFTs
 
 | Contract | Description | Status | Repo |
 |----------|-------------|--------|------|
-| ERC-721 Basic | NFT collection with IPFS metadata | ⏳ Soon | coming soon |
-| NFT Royalties | On-chain royalties via ERC-2981 standard | ⏳ Soon | coming soon |
-| NFT Whitelist Merkle | Presale minting with Merkle tree whitelist | ⏳ Soon | coming soon |
+| ERC-721 Basic | NFT collection with IPFS metadata | ✅ Done | 🔒 Private — request access |
+| NFT Royalties | On-chain royalties via ERC-2981 standard | ✅ Done | 🔒 Private — request access |
+| NFT Whitelist Merkle | Presale minting with Merkle tree whitelist | ✅ Done | 🔒 Private — request access |
 
+> 🔒 Repos are private. Request access via [LinkedIn](https://linkedin.com/in/hectorob) or email.
 ---
 
 ## 📦 Block 4 — Advanced
 
 | Contract | Description | Status | Repo |
 |----------|-------------|--------|------|
-| Multisig Wallet | M-of-N multi-signature wallet | ⏳ Soon | coming soon |
-| DAO Voting | On-chain governance with proposals and voting | ⏳ Soon | coming soon |
-| Flash Loan Receiver | Aave V3 flash loan integration | ⏳ Soon | coming soon |
+| Multisig Wallet | M-of-N multi-signature wallet | ✅ Done | 🔒 Private — request access |
+| DAO Voting | On-chain governance with proposals and voting | ✅ Done | 🔒 Private — request access |
+| Flash Loan Receiver | Aave V3 flash loan integration | ✅ Done | 🔒 Private — request access |
 
+> 🔒 Repos are private. Request access via [LinkedIn](https://linkedin.com/in/hectorob) or email.
 ---
 
 ## 🧰 Each Repository Contains
@@ -107,10 +146,8 @@ contract-name/
 │   └── ContractName.sol      # Main contract
 ├── test/
 │   └── ContractName.test.js  # Full test suite
-├── ignition/
-│   └── modules/              # Deployment scripts
 ├── README.md                 # Overview and quickstart
-├── STEPS.md                  # Exact commands used (reproducible setup)
+├── STEPS.md                  # Exact commands used
 ├── EXPLANATION.md            # How the contract works in detail
 └── EXAMPLE.md                # Real-world use case and scenario
 ```
@@ -119,14 +156,31 @@ contract-name/
 
 ## 🛠️ Tech Stack
 
-| Tool | Purpose |
-|------|---------|
-| [Solidity 0.8.20](https://soliditylang.org/) | Smart contract language |
-| [Hardhat 3](https://hardhat.org/) | Development environment |
-| [OpenZeppelin 5](https://openzeppelin.com/) | Audited contract libraries |
-| [Ethers.js v6](https://ethers.org/) | Blockchain interaction |
-| [Mocha + Chai](https://mochajs.org/) | Testing framework |
-| [Sepolia Testnet](https://sepolia.etherscan.io/) | Deployment and verification |
+<div align="center">
+
+<img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white"/>
+<img src="https://img.shields.io/badge/Hardhat-f7df1e?style=for-the-badge&logoColor=black"/>
+<img src="https://img.shields.io/badge/OpenZeppelin-4e5ee4?style=for-the-badge&logo=openzeppelin&logoColor=white"/>
+<img src="https://img.shields.io/badge/Ethers.js-2535a0?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Mocha-8d6748?style=for-the-badge&logo=mocha&logoColor=white"/>
+<img src="https://img.shields.io/badge/Chai-a30701?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Aave-b6509e?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Sepolia-6f3ff5?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Etherscan-21325b?style=for-the-badge"/>
+
+</div>
+
+---
+
+## 📊 Portfolio Stats
+
+| Metric | Value |
+|--------|-------|
+| Total contracts | 12 |
+| Total tests | 74+ passing |
+| Blocks covered | 4 |
+| Standards implemented | ERC-20, ERC-721, ERC-2981 |
+| Protocols integrated | Aave V3, OpenZeppelin, MerkleTree |
 
 ---
 
@@ -147,6 +201,14 @@ contract-name/
 
 [![GitHub](https://img.shields.io/badge/GitHub-HEO--80-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HEO-80)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hectorob-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hectorob)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-c792ea?style=for-the-badge)](LICENSE)
 
 ---
 
