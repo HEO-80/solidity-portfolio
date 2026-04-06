@@ -28,7 +28,9 @@ NFTs and advanced patterns — each in its own repo with tests, deployment and f
 
 ---
 
-<img src="img/solidity_portfolio_dark_v3.svg">
+<div align="center">
+  <img src="img/solidity_portfolio_dark_v3.svg" alt="Solidity Portfolio Diagram" width="100%"/>
+</div>
 
 ## 💼 Looking to hire?
 
