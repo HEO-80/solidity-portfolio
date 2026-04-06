@@ -67,6 +67,7 @@ Before diving into any contract repo, make sure you have:
 ---
 
 ## 🗂️ Repository Structure
+
 ```
 HEO-80/
 ├── solidity-portfolio/          ← This repo (index + links)
@@ -78,18 +79,18 @@ HEO-80/
 │
 ├── 📦 Block 2 — DeFi Contracts
 │   ├── token-vesting/           ✅ done
-│   ├── escrow-simple/           🔄 in progress
-│   └── staking-contract/        coming soon
+│   ├── escrow-simple/           ✅ done
+│   └── staking-contract/        ✅ done
 │
 ├── 📦 Block 3 — NFTs
-│   ├── erc721-basic/            coming soon
-│   ├── nft-royalties/           coming soon
-│   └── nft-whitelist-merkle/    coming soon
+│   ├── erc721-basic/            ✅ done
+│   ├── nft-royalties/           ✅ done
+│   └── nft-whitelist-merkle/    ✅ done
 │
 └── 📦 Block 4 — Advanced
-    ├── multisig-wallet/         coming soon
-    ├── dao-voting/              coming soon
-    └── flashloan-receiver/      coming soon
+    ├── multisig-wallet/         ✅ done
+    ├── dao-voting/              ✅ done
+    └── flashloan-receiver/      ✅ done
 ```
 
 ---
@@ -109,8 +110,8 @@ HEO-80/
 | Contract | Description | Status | Repo |
 |----------|-------------|--------|------|
 | Token Vesting | Cliff + linear release, multi-beneficiary | ✅ Done | [token-vesting](https://github.com/HEO-80/token-vesting) |
-| Escrow Simple | Trustless escrow between two parties | 🔄 In progress | coming soon |
-| Staking Contract | Deposit tokens, earn time-based rewards | ⏳ Soon | coming soon |
+| Escrow Simple | Trustless escrow between two parties | ✅ Done | [escrow-simple](https://github.com/HEO-80/escrow-simple) |
+| Staking Contract | Deposit tokens, earn time-based rewards | ✅ Done | [staking-contract](https://github.com/HEO-80/staking-contract) |
 
 ---
 
@@ -118,9 +119,9 @@ HEO-80/
 
 | Contract | Description | Status | Repo |
 |----------|-------------|--------|------|
-| ERC-721 Basic | NFT collection with IPFS metadata | ⏳ Soon | coming soon |
-| NFT Royalties | On-chain royalties via ERC-2981 standard | ⏳ Soon | coming soon |
-| NFT Whitelist Merkle | Presale minting with Merkle tree whitelist | ⏳ Soon | coming soon |
+| ERC-721 Basic | NFT collection with IPFS metadata | ✅ Done | [erc721-basic](https://github.com/HEO-80/erc721-basic) |
+| NFT Royalties | On-chain royalties via ERC-2981 standard | ✅ Done | [nft-royalties](https://github.com/HEO-80/nft-royalties) |
+| NFT Whitelist Merkle | Presale minting with Merkle tree whitelist | ✅ Done | [nft-whitelist-merkle](https://github.com/HEO-80/nft-whitelist-merkle) |
 
 ---
 
@@ -128,13 +129,14 @@ HEO-80/
 
 | Contract | Description | Status | Repo |
 |----------|-------------|--------|------|
-| Multisig Wallet | M-of-N multi-signature wallet | ⏳ Soon | coming soon |
-| DAO Voting | On-chain governance with proposals and voting | ⏳ Soon | coming soon |
-| Flash Loan Receiver | Aave V3 flash loan integration | ⏳ Soon | coming soon |
+| Multisig Wallet | M-of-N multi-signature wallet | ✅ Done | [multisig-wallet](https://github.com/HEO-80/multisig-wallet) |
+| DAO Voting | On-chain governance with proposals and voting | ✅ Done | [dao-voting](https://github.com/HEO-80/dao-voting) |
+| Flash Loan Receiver | Aave V3 flash loan integration | ✅ Done | [flashloan-receiver](https://github.com/HEO-80/flashloan-receiver) |
 
 ---
 
 ## 🧰 Each Repository Contains
+
 ```
 contract-name/
 ├── contracts/
@@ -159,10 +161,23 @@ contract-name/
 <img src="https://img.shields.io/badge/Ethers.js-2535a0?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Mocha-8d6748?style=for-the-badge&logo=mocha&logoColor=white"/>
 <img src="https://img.shields.io/badge/Chai-a30701?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Aave-b6509e?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Sepolia-6f3ff5?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Etherscan-21325b?style=for-the-badge"/>
 
 </div>
+
+---
+
+## 📊 Portfolio Stats
+
+| Metric | Value |
+|--------|-------|
+| Total contracts | 12 |
+| Total tests | 74+ passing |
+| Blocks covered | 4 |
+| Standards implemented | ERC-20, ERC-721, ERC-2981 |
+| Protocols integrated | Aave V3, OpenZeppelin, MerkleTree |
 
 ---
 
